@@ -20,11 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-            $data['theme_asset_url'] = base_url() . $this->config->item('THEME_ASSET');
-        $data['Title'] = 'Dashboard';
-        $data['base_url'] = base_url();
-        $this->load->view($this->config->item('ADMIN_THEME') . 'test', $data);
-//		$this->load->view('welcome_message');
+        
+		$this->load->view('welcome_message');
 	}
         
         
