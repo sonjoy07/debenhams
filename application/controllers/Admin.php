@@ -31,7 +31,6 @@ class Admin extends CI_Controller {
         $data['Title'] = 'Dashboard';
         $data['base_url'] = base_url();
         $this->load->view($this->config->item('ADMIN_THEME') . 'test', $data);
-//		$this->load->view('welcome_message');
     }
 
 }
